@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/details"
+            android:title="My Details"
+            android:icon="@drawable/details"/>
+        <item
+            android:id="@+id/contacts"
+            android:title="Emergency Contacts"
+            android:icon="@drawable/contacts"/>
+        <item
+            android:id="@+id/location"
+            android:title="My Location"
+            android:icon="@drawable/location"/>
+        <item
+            android:id="@+id/blood"
+            android:title="Find Blood"
+            android:icon="@drawable/blood"/>
+        <item
+            android:id="@+id/firstaid"
+            android:title="First Aid"
+            android:icon="@drawable/fa"/>
+        <item
+            android:id="@+id/sos"
+            android:title="SOS"
+            android:icon="@drawable/sos"/>
+
+    </group>
+
+
+</menu>

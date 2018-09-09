@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.lifesaver.location_f">
+
+    <ImageButton
+        android:background="@color/background"
+        android:src="@drawable/c_location"
+        android:id="@+id/location"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:layout_marginTop="80dp"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#000"
+        android:textSize="21dp"
+        android:layout_marginTop="-10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:text="Get Current Location"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

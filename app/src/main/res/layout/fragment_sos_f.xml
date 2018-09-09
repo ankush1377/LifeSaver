@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.dell.lifesaver.sos_f">
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:background="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    >
+
+                    <TextView
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Helpline Numbers"
+                        android:textSize="20dp"
+                        />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Police"
+                        android:textColor="#000"
+                        android:layout_gravity="center_vertical"
+                        android:padding="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"/>
+
+                    <Button
+                        android:background="#FFF"
+                        android:text="100"
+                        android:id="@+id/police"
+                        android:textSize="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="100dp"
+                        android:layout_span="1"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Fire Brigade"
+                        android:textColor="#000"
+                        android:layout_gravity="center_vertical"
+                        android:padding="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"/>
+
+                    <Button
+                        android:background="#FFF"
+                        android:text="101"
+                        android:id="@+id/fire"
+                        android:textSize="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="100dp"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Ambulance"
+                        android:textColor="#000"
+                        android:layout_gravity="center_vertical"
+                        android:padding="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"/>
+
+                    <Button
+                        android:background="#FFF"
+                        android:text="102"
+                        android:textSize="18dp"
+                        android:id="@+id/ambulance"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="100dp"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+
+
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:text="Emergency Disaster"
+                        android:textColor="#000"
+                        android:layout_gravity="center_vertical"
+                        android:padding="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"/>
+
+                    <Button
+                        android:background="#FFF"
+                        android:text="108"
+                        android:onClick="Function"
+                        android:textSize="18dp"
+                        android:id="@+id/disaster"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="100dp"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

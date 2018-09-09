@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Choose an action"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:id="@+id/call"
+        android:background="#FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:id="@+id/msg"
+        android:paddingBottom="10dp"
+        android:background="#FFF"/>
+
+</LinearLayout>

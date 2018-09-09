@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.lifesaver">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="Register" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ogin"
+            android:label="Login" />
+        <activity
+            android:name=".Home"
+            android:label="Home" />
+        <activity android:name=".Donor_List" />
+        <activity
+            android:name=".Asthma"
+            android:label="Asthma Attack" />
+        <activity
+            android:name=".Bites"
+            android:label="Bites" />
+        <activity
+            android:name=".Bleeding"
+            android:label="Bleeding" />
+        <activity
+            android:name=".Burn"
+            android:label="Burns" />
+        <activity
+            android:name=".Choking"
+            android:label="Choking" />
+        <activity
+            android:name=".Fever"
+            android:label="Fever" />
+        <activity
+            android:name=".HeartAttack"
+            android:label="Heart Attack" />
+        <activity
+            android:name=".HeatStroke"
+            android:label="Heat Stroke" />
+        <activity
+            android:name=".Poison"
+            android:label="Poisoning" />
+        <activity
+            android:name=".Shock"
+            android:label="Shocks" />
+        <activity
+            android:name=".StrainsSprains"
+            android:label="Strains &amp; Sprains" />
+        <activity
+            android:name=".Unconscious"
+            android:label="Unconsciousness" />
+        <activity android:name=".Splash"
+            android:launchMode="singleTop">
+        </activity>
+    </application>
+
+</manifest>
